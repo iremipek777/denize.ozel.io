@@ -164,40 +164,6 @@
 </body>
 </html>
 
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-button {
-  font-size: 1em;
-  padding: 10px 20px;
-  margin: 5px;
-  cursor: pointer;
-}
-
-.red-btn {
-  background-color: red;
-  color: white;
-}
-
-.btn {
-  background-color: lightgray;
-  color: black;
-}
-
-.warning {
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-  color: red;
-  font-weight: bold;
-}
-let evetCount = 0;
-const warning = document.getElementById('warning');
-const yesBtn = document.getElementById('yesBtn');
-const noBtn = document.getElementById('noBtn');
-
 yesBtn.addEventListener('click', () => {
   evetCount++;
   if (evetCount === 2) {
